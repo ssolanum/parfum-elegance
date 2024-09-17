@@ -4,91 +4,28 @@
     font-family: Roboto;
 }
 
-header {
+.navbar {
     background-color: #5b5b5b;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
-#logo {
-    display: flex;
-    align-items: center;
-    background-color: lightblue;
-    width: 15%;
-}
-
-
-
-/* header {
-    background-color: #5b5b5b;
-    height: 40px;
+.navbar-brand {
     color: #faf7ff;
-    position: relative;
-    padding-right: 5px;
-} */
-
-/* logo */
-
-/* #logo {
-    background-color: #5b5b5b;
-    height: 40px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 5px;
-}
-
-
-#logo-name {
     font-size: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    line-height: 40px;
-
 }
 
-#logo-icon {
-    display: inline-block;
-    height: 30px;
-    vertical-align: middle;
-    line-height: 40px;
-} */
-
-/* barra de navegacion */
-
-#nav-bar {
-    display: inline-block;
-    position: absolute;
-    right: 30px;
-    top: 10px;
+.navbar-toggler {
+    background-color: #faf7ff;
 }
 
-#nav-bar a {
-    text-decoration: none;
-    color: #faf7ff;
-    margin-right: 30px;
-
+.offcanvas-body, .offcanvas-header {
+    background-color: #faf7ff;
+    color: #5b5b5b;
 }
 
-/* usuario */
-
-#user {
-    height: 40px;
-    vertical-align: middle;
-    line-height: 40px;
-    background-color: #5b5b5b;
-    float: right;
+main {
+    padding-top: 56px;
 }
 
-#user-icon {
-    height: 30px;
-    padding-top: 4px;
-}
-
-/* estilos del index */
-/* seccion main */
 
 #main-ad {
     background-image: url(../assets/img/eros-perfume-img.jpg);
