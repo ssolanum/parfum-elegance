@@ -1,0 +1,373 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Roboto;
+}
+
+header {
+    background-color: #5b5b5b;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    width: 15%;
+}
+
+
+
+/* header {
+    background-color: #5b5b5b;
+    height: 40px;
+    color: #faf7ff;
+    position: relative;
+    padding-right: 5px;
+} */
+
+/* logo */
+
+/* #logo {
+    background-color: #5b5b5b;
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+
+#logo-name {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    line-height: 40px;
+
+}
+
+#logo-icon {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 40px;
+} */
+
+/* barra de navegacion */
+
+#nav-bar {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #faf7ff;
+    margin-right: 30px;
+
+}
+
+/* usuario */
+
+#user {
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+    background-color: #5b5b5b;
+    float: right;
+}
+
+#user-icon {
+    height: 30px;
+    padding-top: 4px;
+}
+
+/* estilos del index */
+/* seccion main */
+
+#main-ad {
+    background-image: url(../assets/img/eros-perfume-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: #faf7ff;
+}
+
+#main-ad h1 {
+    padding-top: 150px;
+    font-size: 45px;
+}
+
+#main-ad p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#main-ad button {
+    border: 0;
+    height: 40px;
+    width: 90px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 900;
+    background-color: #8685ef;
+    color: #faf7ff;
+}
+
+/* ofertas */
+
+#ofertas {
+    background-color: #faf7ff;
+    color: #5b5b5b;
+    padding-top: 30px;
+}
+
+#ofertas p {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contenedor-ofertas {
+    width: 934px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-img {
+    height: 200px;
+    width: 190px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.contenedor-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* footer */
+
+footer {
+    background-color: #5b5b5b;
+    color: #faf7ff;
+    height: 70px;
+    padding-top: 30px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* estilos de la pagina productos */
+
+#main-productos {
+    background: #faf7ff;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+#main-productos h1 {
+    font-size: 25px;
+    color: #5b5b5b;
+}
+
+#filtros {
+    margin-top: 10px;
+}
+
+#filtros button {
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8685ef;
+    color: #faf7ff;
+}
+
+/* recuadros de productos */
+
+#productos {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contenedor-producto {
+    background-color: #5b5b5b;
+    color: #faf7ff;
+    display: inline-block;
+    text-align: center;
+    height: 290px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+.contenedor-producto img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.nombre-producto {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.info-producto {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.boton-compra {
+    height: 32px;
+    width: 91%;
+    border: none;
+    border-radius: 4px;
+    background-color: #8685ef;
+    color: #faf7ff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* estilos para pagina nosotros */
+
+#nosotros {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: #faf7ff;
+    color: #5b5b5b;
+}
+
+#nosotros h1 {
+    font-size: 30px;
+}
+
+#nosotros p {
+    font-size: 17px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+#contenedor-fotos {
+    background-color: #8685ef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+#contenedor-fotos img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+/* estilos para pagina ubicacion */
+
+#ubicacion {
+    background-color: #faf7ff;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+#contenedor-direcciones {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contenedor-direcciones h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #5b5b5b;
+}
+
+.sucursal {
+    background-color: #8685ef;
+    color: #faf7ff;
+    width: 470px;
+    height: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0 auto 20px auto;
+    font-size: 14px;
+    text-align: left;
+}
+
+.nombre-local {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sucursal p {
+    font-size: 19px;
+    margin-top: 7px;
+}
+
+/* estilos para pagina contacto */
+
+#contacto {
+    background-color: #faf7ff;
+}
+
+#contenedor-contacto {
+    background-color: #8685ef;
+    color: #faf7ff;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#contenedor-contacto h1 {
+    margin-bottom: 10px;
+}
+
+#contenedor-contacto p {
+    font-size: 20px;
+}
+
+#contenedor-medios {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contenedor-medios button {
+    background-color: #faf7ff;
+    color: #5b5b5b;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
