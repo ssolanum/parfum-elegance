@@ -24,6 +24,8 @@
 
 main {
     padding-top: 56px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -31,18 +33,20 @@ main {
     background-image: url(../assets/img/eros-perfume-img.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
-    text-align: center;
+    height: 80vh;
     color: #faf7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-ad h1 {
-    padding-top: 150px;
     font-size: 45px;
+    font-weight: bold;
 }
 
 #main-ad p {
-    margin-top: 40px;
     font-size: 20px;
 }
 
@@ -54,7 +58,6 @@ main {
     font-family: Roboto;
     font-size: 16px;
     display: inline-block;
-    margin-top: 50px;
     font-weight: 900;
     background-color: #8685ef;
     color: #faf7ff;
@@ -63,8 +66,14 @@ main {
 /* ofertas */
 
 #ofertas {
+    height: 50vh;
     background-color: #faf7ff;
     color: #5b5b5b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 60px;
     padding-top: 30px;
 }
 
@@ -75,18 +84,15 @@ main {
 }
 
 #contenedor-ofertas {
-    width: 934px;
-    height: 300px;
-    margin: 0 auto;
-    text-align: center;
+    width: 55vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .contenedor-img {
     height: 200px;
     width: 190px;
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 40px;
 }
 
 .contenedor-img img {
@@ -100,13 +106,17 @@ main {
 footer {
     background-color: #5b5b5b;
     color: #faf7ff;
-    height: 70px;
-    padding-top: 30px;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
-    text-align: center;
+    margin: 0;
 }
+
 
 /* estilos de la pagina productos */
 
