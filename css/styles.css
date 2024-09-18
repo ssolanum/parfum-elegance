@@ -4,6 +4,10 @@
     font-family: Roboto;
 }
 
+html, body {
+    width: 100%;
+}
+
 .navbar {
     background-color: #5b5b5b;
 }
@@ -34,6 +38,7 @@ main {
     background-size: cover;
     background-position: center;
     height: 80vh;
+    width: 100vw;
     color: #faf7ff;
     display: flex;
     flex-direction: column;
@@ -44,10 +49,12 @@ main {
 #main-ad h1 {
     font-size: 45px;
     font-weight: bold;
+    text-align: center;
 }
 
 #main-ad p {
     font-size: 20px;
+    text-align: center;
 }
 
 #main-ad button {
@@ -66,14 +73,14 @@ main {
 /* ofertas */
 
 #ofertas {
-    height: 50vh;
+    height: 60vh;
     background-color: #faf7ff;
     color: #5b5b5b;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     padding-top: 30px;
 }
 
@@ -84,10 +91,11 @@ main {
 }
 
 #contenedor-ofertas {
-    width: 55vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 70vw;
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
 }
 
 .contenedor-img {
@@ -115,6 +123,94 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+
+
+@media only screen and (max-width: 1227px) and (min-width: 767px) {
+    #contenedor-ofertas {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 497px) {
+    #ofertas {
+        height: 700px;
+    }
+    #contenedor-ofertas {
+        width: 55vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        row-gap: 30px;
+    }
+    .contenedor-img {
+        height: 250px;
+        width: 240px;
+    }
+    footer p {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 496px) and (min-width: 425px) {
+    #main-ad {
+        height: 60vh;
+        width: 100vw;
+    }
+    #main-ad p {
+        width: 70vw;
+    }
+    #ofertas {
+        height: 600px;
+    }
+
+    #contenedor-ofertas {
+        width: 55vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        row-gap: 30px;
+    }
+    .contenedor-img {
+        height: 200px;
+        width: 190px;
+    }
+    footer p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 424px) and (min-width: 320px) {
+    #ofertas {
+        height: 500px;
+        padding: 0;
+    }
+    #contenedor-ofertas {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .contenedor-img {
+        height: 150px;
+        width: 140px;
+    }
+    footer {
+        height: 15vh;
+    }
+    footer p {
+        font-size: 11px;
+        text-align: center;
+    }
 }
 
 
